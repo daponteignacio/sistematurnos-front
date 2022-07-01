@@ -1,0 +1,23 @@
+.mis-datos {
+}
+
+.mis-datos__group {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    align-items: center;
+
+    &:last-of-type {
+        margin-bottom: 20px;
+    }
+}
+
+.mis-datos__label {
+    width: 30%;
+    margin-right: 20px;
+}
+
+.mis-datos__dato {
+    width: 70%;
+    border: 1px solid rgb(160, 160, 160);
+}

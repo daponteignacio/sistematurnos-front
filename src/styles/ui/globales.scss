@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  min-height: 100vh;
+  background-color: #2E5D7D;
+  
+  
+}
+
+a {
+  text-decoration: none;
+  columns: #000;
+}
+
+input {
+  font-size: 20px;
+  padding: 10px;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  display: none;
+}

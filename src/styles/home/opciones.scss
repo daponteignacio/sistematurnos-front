@@ -1,0 +1,25 @@
+.opciones__titulo {
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  .opciones {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+  
+  .opcion {
+    background-color: #468cbd;
+    font-weight: 500;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+  
+    &:hover {
+      background-color: lighten(#468cbd, 10%);
+    }
+  }

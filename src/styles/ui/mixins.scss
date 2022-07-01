@@ -1,0 +1,42 @@
+@mixin phone {
+  @media screen and (max-width: 700px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (max-width: 1080px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (max-width: 1920px) {
+    @content;
+  }
+}
+
+@mixin boton($bgColor, $color) {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+
+  background-color: $bgColor;
+  border-radius: 10px;
+  border: none;
+  color: $color;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+  outline: none;
+  padding: 7px 10px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    background-color: darken($bgColor, 10%);
+  }
+}

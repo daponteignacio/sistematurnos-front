@@ -1,0 +1,21 @@
+
+
+@use './ui/botones.scss';
+@use './ui/navbar.scss';
+@use './ui/globales.scss';
+@use './ui/variables.scss';
+@use './ui/mixins.scss';
+
+
+@use './auth/auth.scss';
+
+
+@use './home/layout.scss';
+@use './home/mis-datos.scss';
+@use './home/lista-tipo.scss';
+@use './home/lista-turnos.scss';
+@use './home/turno.scss';
+@use './home/opciones.scss';
+
+
+// @import "../../node_modules/bootstrap/scss/bootstrap";
